@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/purple-green.css";
+body{
+    margin: 0;
+}
+.piper-logo{
+    height: 26px;
+    margin: 0 4px 3px 0;
+    vertical-align: middle;
+    path{
+        fill: white;
+    }
+}
+.pp-navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
